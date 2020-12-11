@@ -9,7 +9,7 @@ class CallApi {
     var header = <String, String>{
       'Content-Type': 'application/json',
       'Accept': 'application/json',
-      'Authorization': 'Bearer',
+      'Authorization': 'Bearer {your_api_token}',
     };
     return header;
   }
